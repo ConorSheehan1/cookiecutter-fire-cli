@@ -14,21 +14,24 @@ cookiecutter gh:ConorSheehan1/cookiecutter-fire-cli
 
 For full cookiecutter instructions see https://github.com/audreyr/cookiecutter#features
 
-### Local/Dev install
-```
-poetry install
-poetry run cookiecutter .
-# poetry run cookiecutter . --overwrite-if-exists --no-input
-```
-
 # Configuration provided
 1. testing
     1. pytest
     1. github actions
 1. linting
     1. black
+    1. isort
     1. mypy
-1. docs
-    1. sphinx
+1. dependency management / packaging
+    1. poetry
+1. version management
+    1. bump2version
 1. license
     1. MIT
+
+### Local/Dev install
+```bash
+poetry install
+poetry run cookiecutter .
+# poetry run cookiecutter . --overwrite-if-exists --no-input
+```

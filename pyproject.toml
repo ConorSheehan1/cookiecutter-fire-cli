@@ -3,7 +3,7 @@ name = "cookiecutter-fire-cli"
 version = "0.1.0"
 description = "A cookiecutter template for creating a fire cli python package"
 authors = ["Conor Sheehan <conor.sheehan.dev@gmail.com>"]
-license = "mit"
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.6"

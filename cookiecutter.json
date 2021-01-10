@@ -4,5 +4,5 @@
   "full_name": "Firstname Lastname",
   "description": "A description is required for poetry/pypi",
   "email": "name@example.com",
-  "year":  "{% now 'utc', '%Y' %}"
+  "create_pypi_deploy_github_action": "y"
 }

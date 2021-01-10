@@ -46,6 +46,7 @@ install_hooks = "python .githooks/install.py"
 [tool.isort]
 import_heading_stdlib = "Standard Library"
 import_heading_thirdparty = "Third party"
+import_heading_firstparty = "{{cookiecutter.repo_name}}"
 # copied from https://github.com/psf/black/blob/master/docs/compatible_configs.md
 multi_line_output = 3
 include_trailing_comma = true
