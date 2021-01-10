@@ -14,10 +14,11 @@ pip install cookiecutter
 cookiecutter gh:ConorSheehan1/cookiecutter-fire-cli
 ```
 
-### local install
+### Local/Dev install
 ```
 poetry install
 poetry run cookiecutter .
+# poetry run cookiecutter . --overwrite-if-exists --no-input
 ```
 
 # Configuration provided

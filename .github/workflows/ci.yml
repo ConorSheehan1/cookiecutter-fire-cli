@@ -39,16 +39,24 @@ jobs:
           poetry install
       - name: Setup cookiecutter
         run: |
-          poetry run cookiecutter . --no-input
+          poetry run cookiecutter . --overwrite-if-exists --no-input
+      - name: Install python packages in cookiecutter dir
+        working-directory: example_cli
+        run: |
+          poetry install
       - name: Run tests
+        working-directory: example_cli
         run: |
           poetry run task tests
       - name: Lint black
+        working-directory: example_cli
         run: |
           poetry run task ci_lint
       - name: Lint isort
+        working-directory: example_cli
         run: |
           poetry run task ci_isort
       - name: Lint mypy
+        working-directory: example_cli
         run: |
           poetry run task mypy
