@@ -4,5 +4,6 @@
   "full_name": "Firstname Lastname",
   "description": "A description is required for poetry/pypi",
   "email": "name@example.com",
-  "create_pypi_deploy_github_action": "y"
+  "create_pypi_deploy_github_action": "y",
+  "create_release_github_action": "y"
 }
