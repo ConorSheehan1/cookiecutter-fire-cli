@@ -5,14 +5,14 @@
 This repo contains a [cookiecutter](https://github.com/audreyr/cookiecutter) template for creating a new python package with a  [fire](https://github.com/google/python-fire) command line interface.
 
 # Usage
-For full cookiecutter instructions see https://github.com/audreyr/cookiecutter#features
-
 To create a new project using this cookiecutter template:
 
 ```bash
 pip install cookiecutter
 cookiecutter gh:ConorSheehan1/cookiecutter-fire-cli
 ```
+
+For full cookiecutter instructions see https://github.com/audreyr/cookiecutter#features
 
 ### Local/Dev install
 ```
