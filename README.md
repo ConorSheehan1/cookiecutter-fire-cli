@@ -24,7 +24,7 @@ For full cookiecutter instructions see https://github.com/audreyr/cookiecutter#f
     1. [github actions](https://github.com/features/actions)
         1. ci
         1. release (github release, optional)
-        1. deploy (to pypi, optional)
+        1. deploy (to pypi, requires additional steps, optional)
 1. linting
     1. [black](https://github.com/psf/black) autoformatter
     1. [isort](https://github.com/PyCQA/isort) import sorter
@@ -36,7 +36,7 @@ For full cookiecutter instructions see https://github.com/audreyr/cookiecutter#f
 1. license
     1. MIT
 1. githooks
-    1. pre-commit
+    1. pre-commit (requires additional steps)
 
 ## Local/Dev install
 ```bash
