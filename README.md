@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-This repo contains a [cookiecutter](https://github.com/audreyr/cookiecutter) template for creating a new python package with a  [fire](https://github.com/google/python-fire) command line interface.
+A [cookiecutter](https://github.com/audreyr/cookiecutter) template for creating a new python package with a [fire](https://github.com/google/python-fire) command line interface.
 
 # Usage
 To create a new project using this cookiecutter template:
