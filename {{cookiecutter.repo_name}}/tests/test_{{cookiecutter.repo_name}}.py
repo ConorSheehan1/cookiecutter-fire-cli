@@ -15,3 +15,6 @@ class Test{{cookiecutter.repo_name}}(unittest.TestCase):
 
     def test_foo(self):
         assert {{cookiecutter.repo_name}}(foo=True) == "foo"
+
+    def test_version(self):
+        assert {{cookiecutter.repo_name}}(version=True) == "0.1.0"

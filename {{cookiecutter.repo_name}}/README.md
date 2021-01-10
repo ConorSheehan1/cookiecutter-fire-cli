@@ -4,3 +4,12 @@
 
 # {{cookiecutter.repo_name}}
 {{cookiecutter.description}}
+
+### Usage
+```bash
+# show options
+{{cookiecutter.repo_name}} --help
+
+# show version
+{{cookiecutter.repo_name}} --version
+```
