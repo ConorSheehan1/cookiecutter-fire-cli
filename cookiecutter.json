@@ -1,0 +1,8 @@
+{
+  "repo_name": "example_cli",
+  "github_username": "some_user",
+  "full_name": "Firstname Lastname",
+  "description": "A description is required for poetry/pypi",
+  "email": "name@example.com",
+  "year":  "{% now 'utc', '%Y' %}"
+}
