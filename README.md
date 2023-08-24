@@ -1,8 +1,9 @@
 [![Build Status](https://github.com/ConorSheehan1/cookiecutter-fire-cli/workflows/ci/badge.svg)](https://github.com/ConorSheehan1/cookiecutter-fire-cli/actions/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Tested python versions](https://img.shields.io/badge/dynamic/yaml?url=https://raw.githubusercontent.com/ConorSheehan1/cookiecutter-fire-cli/main/.github/workflows/ci.yml&label=Tested%20python%20versions&query=$.jobs.build.strategy.matrix.python)](https://github.com/ConorSheehan1/cookiecutter-fire-cli/blob/main/.github/workflows/ci.yml#L25)
 
-This repo contains a [cookiecutter](https://github.com/audreyr/cookiecutter) template for creating a new python package with a  [fire](https://github.com/google/python-fire) command line interface.
+A [cookiecutter](https://github.com/audreyr/cookiecutter) template for creating a new python package with a [fire](https://github.com/google/python-fire) command line interface.
 
 # Usage
 To create a new project using this cookiecutter template:

@@ -2,7 +2,7 @@ name: ci
 
 on:
   # https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch/
-  workflow_dispatch: 
+  workflow_dispatch:
   push:
     branches:
       - '**'
@@ -22,7 +22,7 @@ jobs:
     runs-on: macos-latest
     strategy:
       matrix:
-        python: [3.6, 3.7, 3.8]
+        python: [3.7, 3.8]
 
     steps:
       - uses: actions/checkout@v1
@@ -36,6 +36,7 @@ jobs:
           pip install poetry
       - name: Install python packages
         run: |
+
           poetry install
       - name: Run tests
         run: |
